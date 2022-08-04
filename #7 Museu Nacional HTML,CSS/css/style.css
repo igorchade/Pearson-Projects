@@ -1,0 +1,176 @@
+body {
+    background: #f4f2ec url(../imgs/fundo.png) repeat-x;
+    font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+#container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+a:link, a:active, a:visited {
+    color: #af670a;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #227115;
+}
+
+/* Logo */
+
+#logo h1 {
+    float: left;
+}
+
+#logo a {
+    width: 248px;
+    height: 21px;
+    text-indent: -9999px;
+    display: block;
+    background: url(../imgs/logo.png) no-repeat;
+}
+
+/* navegacao */
+
+header {
+    padding: 15px 0;
+    height: 55px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 20px;
+    float: right;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a:link {
+    display: block;
+    margin-right: 25px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid #535858;
+}
+
+/* principal */
+
+#conteudo {
+    width: 710px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+aside {
+    width: 350px;
+    float: right;
+    background: #ebe7dd;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+/* visita */
+
+section#visita {
+    background: #cdc8b1;
+    padding: 10px 27px 27px 27px;
+    margin-top: 10px;
+}
+
+section#galeria h4 {
+    padding: 0px 27px 0 27px;
+}
+
+section#galeria a img {
+    float: left;
+    padding: 40px;
+    background: url(../imgs/fundo-foto.png) no-repeat center center;
+}
+
+article#video {
+    margin-left: 25px;
+    width: 310px;
+    float: left;
+}
+
+article#mapa {
+    margin-left: 37px;
+    width: 310px;
+    float: left;
+}
+
+article#exposicoes {
+    margin: 15px 0 0 25px;
+    width: 310px;
+    float: left;
+}
+
+article#historia {
+    margin: 15px 0 0 37px;
+    width: 310px;
+    float: left;
+}
+
+
+h4 {
+    color: #86521a;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+}
+
+h3 {
+    color: #277115;
+    font-size: 1em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+/* rodapé */
+
+footer {
+    padding: 20px 0 30px 0;
+    text-align: center;
+    background: url(../imgs/fundo-rodape.png) no-repeat center top;
+    margin-top: 20px;
+}
+
+footer>p a {
+    padding: 2px 10px;
+}
+
+/* formularios */
+
+input {
+    height: 20px;
+    width: 80px;
+    background: #fff;
+    border: none;
+    font-size: 1em;
+}
+
+input.campo {
+    border: 1px solid #ada484;
+}
+
+input.botao {
+    background: #9b9271;
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-size: 1.2em;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    display: none;
+}
